@@ -1,17 +1,26 @@
 const siteData = {
-  title: 'Starter Notion blog for Nextjs with Tailwind',
-  author: 'Notion Blog Starter',
-  headerTitle: 'Nextjs Notion Blog Starter',
-  profileUrl: '/nextjs-logo.png',
-  headerDescription: 'Starter Notion blog for Nextjs with Tailwind',
-  footerText: '© All rights reserved',
-  language: 'en-us',
-  locale: 'en-US',
-  ogBanner: 'https://nextjs-notion-blog-starter.vercel.app/preview/1.jpg',
-  github: 'https://github.com/tuanphungcz/nextjs-notion-blog-starter',
-  twitter: 'https://github.com/tuanphungcz/nextjs-notion-blog-starter',
-  websiteUrl: 'https://nextjs-notion-blog-starter.vercel.app',
-  linkedin: 'https://github.com/tuanphungcz/nextjs-notion-blog-starter'
+  module.exports = {
+  rootNotionPageId: '2019a5ade2b3806cbbc4f7b82d009d53',
+
+  name: 'Xyush',
+  domain: 'fruition-xyush.vercel.app',
+  author: 'Xyush',
+
+  description: 'Indian Phonk Artist Xyush Official Notion Website',
+  socialImageTitle: 'Xyush',
+  socialImageSubtitle: '🔥 Indian Phonk Revolution',
+  github: 'ayushxfir',
+  linkedin: '',
+  twitter: '',
+
+  defaultPageIcon: null,
+  defaultPageCover: null,
+  defaultPageCoverPosition: 0.5,
+
+  isPreviewImageSupportEnabled: false,
+  isRedisEnabled: false,
+  pageUrlOverrides: null,
+  navigationStyle: 'default'
 };
 
 export default siteData;
