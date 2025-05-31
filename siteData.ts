@@ -1,17 +1,9 @@
-const siteData = {
-  title: 'Starter Notion blog for Nextjs with Tailwind',
-  author: 'Notion Blog Starter',
-  headerTitle: 'Nextjs Notion Blog Starter',
-  profileUrl: '/nextjs-logo.png',
-  headerDescription: 'Starter Notion blog for Nextjs with Tailwind',
-  footerText: '© All rights reserved',
-  language: 'en-us',
-  locale: 'en-US',
-  ogBanner: 'https://nextjs-notion-blog-starter.vercel.app/preview/1.jpg',
-  github: 'https://github.com/tuanphungcz/nextjs-notion-blog-starter',
-  twitter: 'https://github.com/tuanphungcz/nextjs-notion-blog-starter',
-  websiteUrl: 'https://nextjs-notion-blog-starter.vercel.app',
-  linkedin: 'https://github.com/tuanphungcz/nextjs-notion-blog-starter'
+const siteData = export const siteData = {
+  title: 'XYUSH OFFICIAL',
+  description: 'Merch and samples by XYUSH — Brazilian Phonk Producer',
+  notionPageId: '2019a5ade2b3806cbbc4f7b82d009d53',
+  // Add other configurations as needed
 };
+
 
 export default siteData;
